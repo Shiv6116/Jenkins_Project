@@ -3,7 +3,6 @@ This repository contains a full setup of Jenkins with CI/CD pipeline, SonarQube 
 
 Taken a Reference source code and deployed  server.
 
-{ https://github.com/devopsbyraham/jenkins-java-project.git }
 
 Version Control System Git, GitHub
 
