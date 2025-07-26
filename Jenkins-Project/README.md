@@ -3,7 +3,6 @@ This repository contains a full setup of Jenkins with CI/CD pipeline, SonarQube 
 
 Taken a Reference source code and deployed  server.
 
-
 Version Control System Git, GitHub
 
 Build tool :Maven
