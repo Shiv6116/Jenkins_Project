@@ -10,3 +10,4 @@ TOMCAT SETUP:
 4. vim apache-tomcat-9.0.80/webapps/manager/META-INF/context.xml (delete 21,22)
 5. sh apache-tomcat-9.0.80/bin/startup.sh
 public-ip(in Server) ServerName:8080
+http://Public ip:8080/netflix/ 
