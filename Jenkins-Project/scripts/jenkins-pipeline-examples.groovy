@@ -1,9 +1,18 @@
+
 pipeline {
     agent any
+    
     stages {
-        stage('Build') {
+        stage('one') {
             steps {
-                echo 'Build Stage'
+                git 'https://github.com/devopsbyraham/jenkins-java-project.git'
+                sh '''
+                mvn compile
+                mvn test
+                mvn package
+                mvn install
+                mvn clean package
+                '''
             }
         }
     }
