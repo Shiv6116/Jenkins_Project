@@ -1,5 +1,8 @@
 SETUP:
 
+port: 9000
+req: t2 medium
+dependency: java-11
 #! /bin/bash
 #Launch an instance with 9000 and t2.medium
 cd /opt/
