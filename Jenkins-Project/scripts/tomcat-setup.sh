@@ -18,8 +18,7 @@ sh /root/apache-tomcat-9.0.80/bin/shutdown.sh
 pipeline {
     agent {
         label 'slave1'
-    }
-    
+    }  
     stages {
         stage('checkout') {
             steps {
